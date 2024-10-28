@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: white;
+  color: #09102b;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1 {
+  color: 243642;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 32px;
+  margin: 0 auto
+}
+
+h2 {
+  color: 387478;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 0px;
+}
+
+h3 {
+  color: 629584;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(209, 209, 209, 0.9);
+}
+
+a:hover {
+  color: 387478;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.container {
+  width: 800px;
+  margin: 0px auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 75%;
+}
+
+.btn-teal {
+  background-color: 387478;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 860px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 760px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
